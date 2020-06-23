@@ -110,7 +110,7 @@
 
 // Task 15
 
-function CheckPassword() 
+// function CheckPassword() 
 // { 
 // var format=  /^(?=.*[0-9])[a-zA-Z0-9]{6}$/;
 // var pass=prompt("Enter password");
