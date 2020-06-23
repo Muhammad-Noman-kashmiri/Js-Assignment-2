@@ -387,8 +387,230 @@
 
 // Task 1
 
-//     function d(a) {
-//   return a;
+// function date(){
+// var current=new Date();
+// return current
 // }
-// d =new Date();
-// document.write(d)
+// document.write(date());
+
+ // Task 2
+ 
+//  function greeting(greet){
+//    var fname=prompt("Enter Your First Name");
+//    var lname=prompt("Enter Your Last Name")
+//    return "Assalam U Alaikum "+fname.concat(" "+lname);
+//  }
+//  document.write(greeting());
+ 
+// Task 3
+
+// function sum(){
+//   var num1=prompt("Enter number 1")
+//   var num2=prompt("Enter number 2");
+//   var sum=+num1+ +num2
+//   return sum;
+// }
+// alert(sum())
+
+
+// Task 4
+ 
+// function cal(){
+//     var num1=prompt("Enter number 1")
+//      var num2=prompt("Enter number 2");
+//      var op=prompt("Enter operator");
+//      if(op=="+"){
+//       return +num1+ +num2
+        
+//      }
+//     else if(op=="-"){
+//        return num1-num2
+        
+//      }
+//      else if(op=="/"){
+//         return num1/num2
+         
+//       }
+//       else if(op=="%"){
+//         return num1%num2
+         
+//       }
+//       else if(op=="*"){
+//         return num1*num2
+         
+//       }
+
+
+// }
+// alert(cal());
+
+// Task 5
+
+// function square(a){
+//     var a=prompt("Enter a number to find square ")
+
+//   return a*a
+// }
+// console.log(square(6));
+
+
+// Task 6
+
+// function Factorial(n) { 
+//     var ans=1; 
+//     var n=prompt("Enter a number for factorial");
+//     for (var i = 2; i <= n; i++) 
+//         ans = ans * i; 
+//     return ans; 
+// } 
+
+// alert(Factorial());
+
+
+// Task 7
+
+// function c(){ 
+// for (i = 0; i <10; i++) {
+//     console.count();
+//   }
+
+// }
+// console.log(c());
+
+// Task 8
+
+// function hypotenuse(){
+//     var per=+prompt("Enter perpendicular");
+//     var base=+prompt("Enter base ");
+//    //   var b=Math.pow(base,2);
+//    //   var p=Math.pow(base,2)
+//    //   var hypo=b+p
+   
+//        return Math.hypot(per,base);
+//    }
+   
+//      function calsq(per,base){
+//        return Math.sqrt(per*per+base*base);
+   
+//      }
+     
+   
+   
+//      console.log(hypotenuse()+"\n");
+//    console.log(calsq())
+
+// alert (rt());
+
+// Task 9
+
+// part 1
+
+// function area(a,b)
+// {
+ 
+//   return a*b
+
+// }
+
+// alert(area(4,5));
+
+// part 2
+
+// function area()
+// {
+//  var h=+prompt("Enter Height");
+//  var w=+prompt("Enter Width ");
+//   var a= h*w;
+//   return a
+
+// }
+
+// alert(area());
+
+// Task 10
+
+function palindrome(){
+
+var c=prompt("Enter a word");
+var check="";
+for (i=c.length-1;i>=0;i--){
+    check+=c[i]
+}
+if(c==check){
+  return c+" is palindrome"
+}
+else {
+  return  c+" is not palindrome"
+}
+
+}
+
+// Task 11
+
+//  function first_letter(){
+//    var str="the quick brown fox".split(' ');
+//    alert("String:"+" "+str+"\n");
+//    for (var i = 0; i < str.length; i++) {
+//        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+//      alert("Expected Output:"+" "+str);
+//                   }
+//  }
+//  first_letter();
+
+// Task 12
+
+// function find_longest_word(string)
+// {
+//   var array1 = string.match(/\w[a-z]{0,}/gi);
+//   var result = array1[0];
+
+//   for(var i = 1 ; i < array1.length ; i++)
+//   {
+//     if(result.length < array1[i].length)
+//     {
+//     result = array1[i];
+//     } 
+//   }
+//   return result;
+// }
+// console.log(find_longest_word("Web Development Tutorial"));
+
+//  function str(string){
+//   var mess="Web Development Tutorial"
+//   var get=mess.slice(3,15)
+//   return get
+// }
+// console.log(str("Web Development Tutorial"));
+
+// Task 13 
+
+// function char_count(string, letter) 
+// {
+//  var letter_Count = 0;
+//  for (var index = 0; index < string.length; index++) 
+//  {
+//     if (string.charAt(index) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+
+// console.log(char_count('JSResourceS.com', 'o')+" "+"Character occurs 2 times");
+
+// Task 14
+
+// function calcCircum(radius){
+//     const pi=3.142;
+//     var circumference=2*pi*radius
+//     return circumference
+
+// }
+// console.log("The value of circumference of the circle is:"+" "+calcCircum(5)+"\n");
+// function calcArea(radius){
+//     const pi=3.142;
+//     var area=pi*radius*radius;
+//     return area
+// }
+// console.log("The value of area of the circle is:"+" "+calcArea(5));
