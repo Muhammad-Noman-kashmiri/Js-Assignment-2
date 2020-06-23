@@ -110,6 +110,22 @@
 
 // Task 15
 
+function CheckPassword() 
+// { 
+// var format=  /^(?=.*[0-9])[a-zA-Z0-9]{6}$/;
+// var pass=prompt("Enter password");
+// if(pass.match(format)) 
+// { 
+// alert('Correct, try another...')
+// return true;
+// }
+// else
+// { 
+// alert('Wrong...!')
+// return false;
+// }
+// } 
+// alert(CheckPassword())
 
 
 
@@ -529,21 +545,21 @@
 
 // Task 10
 
-function palindrome(){
+// function palindrome(){
 
-var c=prompt("Enter a word");
-var check="";
-for (i=c.length-1;i>=0;i--){
-    check+=c[i]
-}
-if(c==check){
-  return c+" is palindrome"
-}
-else {
-  return  c+" is not palindrome"
-}
+// var c=prompt("Enter a word");
+// var check="";
+// for (i=c.length-1;i>=0;i--){
+//     check+=c[i]
+// }
+// if(c==check){
+//   return c+" is palindrome"
+// }
+// else {
+//   return  c+" is not palindrome"
+// }
 
-}
+// }
 
 // Task 11
 
